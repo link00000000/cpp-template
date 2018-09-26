@@ -12,3 +12,8 @@ set(VERSION "${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_PATCH}")
 include_directories(${PROJECT_SOURCE_DIR}/inc)
 #link_directories(${PROJECT_SOURCE_DIR}/external/lib)
 add_executable(my_project ${PROJECT_SOURCE_DIR}/src/main.cpp)
+
+# Custom make commands
+add_custom_target(watch
+    command while true; do \ make $(WATCHMAKE); \ inotifywait -qre close_write .; \ done
+)
