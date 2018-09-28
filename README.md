@@ -14,5 +14,5 @@ A template for cpp applications
 
 ## Debugging
 Run commands under either *Usage* or *Watch and auto compile*
-In a separate terminal run
+In a separate terminal
 1. gdm build/my_project
