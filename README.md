@@ -4,10 +4,10 @@ A template for cpp applications
 ## Usage
 1. cd build
 2. cmake ..
-3. make
+3. cmake --build .
 4. ./my_project
 
-## Watch and auto compile
+## Watch and auto compile (linux only)
 1. cd build
 2. cmake ..
 3. ../inotify-cmake.sh
