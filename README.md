@@ -1,6 +1,13 @@
 # cpp-template
 A template for cpp applications
 
+## Setup
+1. git clone git@github.com:link00000000/cpp-template.git <project_name>
+2. cd <project_name>
+3. sh cleanup.sh
+
+*Note: https://github.com/link00000000/cpp-template.git can be used as a replacement when cloning*
+
 ## Usage
 1. cd build
 2. cmake ..
